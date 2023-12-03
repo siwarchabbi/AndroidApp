@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+
+>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ID"
+            android:id="@+id/ID"
+            android:layout_weight="1"
+            android:textSize="8pt">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FirstName"
+            android:id="@+id/FN"
+            android:layout_weight="1"
+            android:textSize="8pt">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="LastName"
+            android:id="@+id/LN"
+            android:layout_weight="1"
+            android:textSize="8pt">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Age"
+            android:id="@+id/AG"
+            android:layout_weight="1"
+            android:textSize="8pt">
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/EM"
+        android:layout_weight="1"
+        android:textSize="8pt"
+        android:layout_marginLeft="15dp">
+
+    </TextView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
